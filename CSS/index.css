@@ -1,5 +1,5 @@
 :root {
-  --moonstone-blue: #78a6db;
+  --moonstone-blue: #007bff;
   --judge-grey: #55413d;
   --himalaya: #795c20;
   --mountain-mist: #9c918e;
@@ -30,10 +30,47 @@ div[class="container-fluid"] {
   font-size: 30px !important;
 }
 
-#navbarNavDropdown a {
-  color: black !important;
+.custom-nav {
+  background-color: rgba(0, 0, 0, 0.363) !important;
+}
+
+.custom-nav a {
+  color: white !important;
 }
 
 #carouselExampleFade img {
-  height: 900px;
+  width: 100vw !important;
+}
+
+.custom-why-us {
+  margin-top: 120px;
+}
+
+.custom-featured-list,
+.custom-most-popular {
+  margin-top: 150px;
+}
+
+.custom-new-sign-up input {
+  height: 40px;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+}
+
+.custom-news {
+  background: #9d5405;
+  background: radial-gradient(circle, #9d5405 43%, black 100%);
+  margin: 0;
+}
+
+.custom-new-sign-up input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 260px;
+}
+
+.custom-new-sign-up input[type="submit"] {
+  background-color: var(--moonstone-blue) !important;
+  width: 90px;
+  color: white;
 }
